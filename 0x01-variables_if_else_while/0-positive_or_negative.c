@@ -11,7 +11,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* checker to check if n is pos or neg */
-	if(n = 0){
+	if(n == 0){
 		printf("%d is zero\n" , n);
 	}
 	else if (n > 0){
