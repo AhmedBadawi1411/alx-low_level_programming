@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main : Entry point
- * @void : Null value
+ * main- Entry point
+ * @void: Null value
  *
- * Description: write the alphbet in lower case excepect q , n
- * Return: zero
+ * Description: Print alphabet lowercase
+ * Return: Zero value
  */
 
-int main (void)
+int main(void)
 {
 
 	char c;
