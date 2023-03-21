@@ -4,7 +4,7 @@
  * main: Entry Point
  * @void: Null value
  *
- * Description: Function to print _[utchar followed by new line
+ * Description: 'Function to print _[utchar followed by new line'
  * Return: Zero value
  */
 
@@ -19,5 +19,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	return 0;
+	_putchar('\n');
+	return (0);
 }
