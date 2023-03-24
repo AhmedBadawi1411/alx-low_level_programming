@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +5,6 @@
  * @c: c -  Variable
  * Return: Always 0.
  */
-
 int _isupper(int c)
 {
 
@@ -14,8 +12,5 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else if (c <= 120 && c >= 97)
-	{
-		return (0);
-	}
+	return (0);
 }
