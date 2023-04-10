@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - is a function that prints the name of the file
  * @argc: is an argument counter for char
@@ -7,6 +7,6 @@
  */
 int main(int argc, char *argv[])
 {
-	print("%s\n",argv[argc-argc]);
-	return 0;
+	printf("%s\n", argv[argc - argc]);
+	return (0);
 }
