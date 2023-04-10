@@ -5,7 +5,7 @@
  * @argv: is an argument value for char
  * Return: Always 0 (Success)
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	print("%s\n",argv[argc-argc]);
 	return 0;
