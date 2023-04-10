@@ -1,18 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point.
- * @argc: input.
- * @argv: input.
- * Description: prints all argument it receives.
+ * main - prints all argument it receives
+ * @argc: input
+ * @argv: input
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
-	int count;
-	
-	for (count = 0; count < argc; count++)
+	int i;
+
+	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n", argv[count]);
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
