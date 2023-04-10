@@ -3,7 +3,6 @@
  * main - Entry point.
  * @argc: input.
  * @argv: input.
- * 
  * Description: prints all argument it receives.
  * Return: Always 0 (Success)
  */
