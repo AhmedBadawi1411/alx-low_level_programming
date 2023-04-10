@@ -1,22 +1,27 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry point
- * @argc: input
- * @argv: input
- * Returne: Always 0 Success
+ * main - Entry point.
+ * @argc: input.
+ * @argv: input.
+ * Return: Always 0 Success.
  */
 int main(int argc, char *argv[])
 {
-	int multi_result;
-	if (argc == 3)
+	int i, m_res = 1;
+
+	if (argc != 3)
 	{
-		multi_result = argv[1] * argv[2];
-		printf("%d\n", multi_result);
-		return (0);
+		printf("%s\n", "Error");
+		return (1);
 	}
 	else
 	{
-		printf("Error");
-		return (1);
+		for (i = 1; i < argc; i++)
+		{
+			m_res *= atoi(argv[i]);
+		}
+		printf("%d\n", m_res);
 	}
+	return (0);
 }
