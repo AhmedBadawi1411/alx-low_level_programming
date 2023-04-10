@@ -1,8 +1,8 @@
-#includ<stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point - Function to print the number of arguments passed into it.
- * @argc: number of args.
- * @argv: value of args.
+ * main - prints the number of arguments that are passed to it
+ * @argc: input
+ * @argv: input
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
