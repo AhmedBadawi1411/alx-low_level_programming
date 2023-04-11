@@ -1,32 +1,33 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 /**
  * create_array - Main Entry
  * @size: input
  * @c: input
  * Return: 0
  */
-char *created_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
-	char *ch;
-	
-	if (size == 0)
-	{
-		return (NULL);
-	}
-	
-	ch = malloc(sizeof(char)*size);
+		char *arr;
+		unsigned int i;
 
-	if (ch == NULL)
-	{
-		return (NULL);
-	}
-	else
-	{
-		for (int i = 0; i < size; i++)
+		if (size == 0)
 		{
-			ch[i] = #;
+			return (NULL);
 		}
-		return (ch);
-	}
+
+		arr = malloc(sizeof(char) * size);
+
+		if (arr == NULL)
+		{
+
+			return (NULL);
+		}
+
+		for (i = 0; i < size; i++)
+		{
+			arr[i] = c;
+		}
+
+		return (arr);
 }
